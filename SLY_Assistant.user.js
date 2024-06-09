@@ -19,10 +19,10 @@
     'use strict';
 
     //Used for reading solana data
-    let customReadRPCs = [];
+	let customReadRPCs = ['https://solana-mainnet.api.syndica.io/api-token/3Bgn2gJ6waU762hhm3hWnRGdZJ9VvziqYoBhLCab1rNKzq6AHcuya5r3ruAhV838SnqEeu5crCTu7d8U7FZsNuWLtNFNn4n9sWVB9UvJM1T3ZfB1Ad6j4HGhetosAcoiwfEYAhZv4zDkzi1JkUM7C78SfG179WSU9c8fft46UCYHEHe99qsZ9LRLF6nPJyPDjP5WJQM7BVy2ZzBZSECzWfYyRqL4xWXhfXfwDhwZmb5YDbhCU9eyDHsRnbfK9AgyPMFKRmcmP7wRevjS8n5upBefLzcDAD7EvuttLLtPa4k9yRcLgD4W1Zr9zKMGn9LPLPaKKEmvfXGosaBrp79kyYMgMcxwrBRP5tYqrAPAMGyYCfY6VtCHZwMMgJdRN1pHxKwUZMaAd2pKdowvE9DmcZBbiciqXcNmVfRN1xGDkSHWyUjEetwUf8ukfpnVcSoh22uzB493PPxyv8dWvbFxBgp1wBauR5rAuk28yWJvJCZLoz1bZULBGkTPpwPkC',];
 
-    //Used for pushing transactions to solana chain
-    let customWriteRPCs = [];
+	//Used for pushing transactions to solana chain
+	let customWriteRPCs = ['https://solana-mainnet.api.syndica.io/api-token/3Bgn2gJ6waU762hhm3hWnRGdZJ9VvziqYoBhLCab1rNKzq6AHcuya5r3ruAhV838SnqEeu5crCTu7d8U7FZsNuWLtNFNn4n9sWVB9UvJM1T3ZfB1Ad6j4HGhetosAcoiwfEYAhZv4zDkzi1JkUM7C78SfG179WSU9c8fft46UCYHEHe99qsZ9LRLF6nPJyPDjP5WJQM7BVy2ZzBZSECzWfYyRqL4xWXhfXfwDhwZmb5YDbhCU9eyDHsRnbfK9AgyPMFKRmcmP7wRevjS8n5upBefLzcDAD7EvuttLLtPa4k9yRcLgD4W1Zr9zKMGn9LPLPaKKEmvfXGosaBrp79kyYMgMcxwrBRP5tYqrAPAMGyYCfY6VtCHZwMMgJdRN1pHxKwUZMaAd2pKdowvE9DmcZBbiciqXcNmVfRN1xGDkSHWyUjEetwUf8ukfpnVcSoh22uzB493PPxyv8dWvbFxBgp1wBauR5rAuk28yWJvJCZLoz1bZULBGkTPpwPkC',];
 
     let saRPCs = [
         'https://rpc.ironforge.network/mainnet?apiKey=01HZFVRZ4A5WVX2NDA4PCPHJ7N',
